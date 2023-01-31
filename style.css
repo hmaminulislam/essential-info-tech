@@ -1,0 +1,16 @@
+.tshirt {
+    background: url("/img/tshirt.png");
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.drag-box {
+    width: 140px;
+    height: 140px;
+    border: 1px dotted #918f8f;
+}

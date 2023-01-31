@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Project</title>
+    <!-- main css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Tailwind css cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-violet-600">
+    <section class="flex justify-around px-5 sm:px-10 md:px-24 my-20">
+        <div class="basis-96">
+            <div class="w-36 mb-5 h-24 bg-violet-800 rounded-lg py-2">
+                <img ondragstart="drag(event)" class="h-full mx-auto" src="/img/bike.png" alt="">
+            </div>
+            <div class="w-36 mb-5 h-24 bg-violet-800 rounded-lg py-2">
+                <img ondragstart="drag(event)" class="h-full mx-auto" src="/img/biker.png" alt="">
+            </div>
+            <div class="w-36 mb-5 h-24 bg-violet-800 rounded-lg py-2">
+                <img ondragstart="drag(event)" class="h-full mx-auto" src="/img/helmet.png" alt="">
+            </div>
+            <div class="w-36 mb-5 h-24 bg-violet-800 rounded-lg py-2">
+                <img ondragstart="drag(event)" class="h-full mx-auto" src="/img/spiter.png" alt="">
+            </div>
+        </div>
+        <div class="basis-auto">
+            <div class="tshirt">
+                <div class="drag-box"></div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
